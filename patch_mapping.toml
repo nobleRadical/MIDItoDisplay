@@ -1,5 +1,5 @@
 # string values should be either 3 characters or less (a patch name) or be delimited like so:
-# "Small Text|BIG". The small text will be displayed above the 3 big characters as a header, although they also shouldn'r be that long. 6-10 characters is a good number.
+# "Small Text|BIG". The small text will be displayed above the 3 big characters as a header, although they also shouldn't be that long. 6-10 characters is a good number.
 0 = "MVMT 1|000"
 1 = "MVMT 1|001"
 2 = "MVMT 1|002"
