@@ -175,8 +175,8 @@ void readClientResponseIntoPatchName(bool* screen_dirty) {
   //something has changed, need to copy strings and mark dirty
   *screen_dirty = true;
   strcpy(old_client_response, client_response);
-  current_patch_name = ""; // clear the text
-  current_movement_name = "";
+  strcpy(current_patch_name, ""); // clear the text
+  strcpy(current_movement_name, "");
   
   //seperate the client response into two strings based on delimiter
   if (strchr(client_response, '|') == NULL) { // if there is no delimiter
